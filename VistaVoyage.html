@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VistaVoyage</title>
+    <link rel="stylesheet" href="VistaVoyage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+
+</head>
+
+<body class="font-sans mx-auto relative">
+
+    <!-- navigation bar -->
+    <nav class="Navbar bg-white shadow-md mb-1">
+        <div class="flex items-center ">
+            <a href=""><img src="./image/logo.png" alt="logo" class="w-32"></a>
+            <div class="flex gap-4 mt-6 flex-2/3 ">
+                <ul class="hidden lg:flex space-x-8 text-sm font-bold text-gray-700 gap-2 ">
+                    <li class="relative group">
+                        <button class="hover:text-orange-600">Destinations ▾</button>
+                        <div
+                            class="absolute top-full hidden group-hover:flex bg-white shadow-lg w-screen max-w-7xl py-3 space-x-8 justify-center text-sm grid grid-cols-4">
+                            <ul>
+                                <h5 class="font-bold">North India</h5><br>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Rajasthan</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Himachal Pradesh</a>
+                                </li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Uttarakhand</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Uttarpradesh</a></li>
+                                <li><a href="#" class="text-orange-600 ">More...</a> </li>
+                            </ul>
+                            <ul>
+                                <h5 class="font-bold">South India</h5><br>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Kerala</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Karnataka Pradesh</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Tamil Nadu</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Andhra Pradesh</a></li>
+                                <li><a href="#" class="text-orange-600 ">More...</a> </li>
+                            </ul>
+                            <ul>
+                                <h5 class="font-bold">East India</h5><br>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Sikkim</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Assam</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Tripura</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Jharkhand</a></li>
+                                <li><a href="#" class="text-orange-600 ">More...</a> </li>
+                            </ul>
+                            <ul>
+                                <h5 class="font-bold">West India</h5><br>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Goa</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Gujarat</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Maharashtra</a></li>
+                                <li><a href="#" class="text-orange-600 ">More...</a> </li>
+                            </ul>
+                            <ul>
+                                <h5 class="font-bold">Central India</h5><br>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Madhya Pradesh</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Chhattisgarh</a></li>
+                                <li><a href="#" class="text-orange-600 ">More...</a> </li>
+                            </ul>
+                            <ul>
+                                <h5 class="font-bold">Union Territories</h5><br>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Jammu and Kashmir</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Ladakh</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Andaman and Nicobar</a>
+                                </li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Islands</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Chandigarh</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Dadra and Nagar</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Haveli</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Daman and Diu</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal"> Puducherry</a></li>
+                                <li><a href="#" class="text-orange-600 ">More...</a> </li>
+                            </ul>
+                            <a href="#"><img src="./image/image1.jpg" alt=""></a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="hidden lg:flex space-x-8 text-sm font-bold text-gray-700 ">
+                    <li class="relative group">
+                        <button class="  hover:text-orange-600">Holiday Ideas ▾</button>
+                        <div
+                            class="absolute top-full hidden group-hover:flex bg-white shadow-lg w-screen max-w-7xl py-3 space-x-8 justify-center text-sm">
+                            <ul>
+                                <h5 class="font-bold">Tourism Destinations by Interest</h5><br>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Wild life</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Hill Station</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Beaches</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Yoga and Ayurveda</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Heritage</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Honeymoon</a></li>
+                                <li><a href="#" class="text-orange-600 ">More...</a> </li>
+                            </ul>
+                            <ul>
+                                <h5 class="font-bold">Holidays by Interest</h5><br>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Trekking</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Skiing</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Motor Biking</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Mountain Biking</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">River Rafting</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Horse Safari</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Camel Safari</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Jeep Safari</a></li>
+                                <li><a href="#" class="text-orange-600 ">More...</a> </li>
+                            </ul>
+                            <ul>
+                                <h5 class="font-bold">Pilgrimage Tourism</h5><br>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Hindu</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Sikh</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Christianity</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Buddhism</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Jain</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Muslim</a></li>
+                                <li><a href="#" class="text-orange-600 ">More...</a> </li>
+                            </ul>
+                            <a href="#"><img src="./image/image2.jpg" alt=""></a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="hidden lg:flex space-x-8 text-sm font-bold text-gray-700 ">
+                    <li class="relative group">
+                        <button class="  hover:text-orange-600">Packages ▾</button>
+                        <div
+                            class="absolute top-full hidden group-hover:flex bg-white shadow-lg w-screen max-w-7xl py-3 space-x-8 justify-center text-sm">
+                            <ul class="p-6">
+                                <h5 class="font-bold">Packages by states</h5><br>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Jammu & Kashmir</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Rajasthan</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Uttarakhand</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Himachal</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Madhya Pradesh</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Karnataka</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Maharashtra</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Gujarat</a></li>
+                                <li><a href="#" class="text-orange-600 ">More...</a> </li>
+                            </ul>
+                            <ul class="p-6">
+                                <h5 class="font-bold">Holidays by Interest</h5><br>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Wildlife</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Adventure</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Honeymoon</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Beach</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Pilgrimage</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Hill Station</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Heritage Tours</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Ayurveda Tours</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Cultural</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Special Interest</a></li>
+                                <li><a href="#" class="text-orange-600 ">More...</a> </li>
+                            </ul>
+                            <ul class="p-6">
+                                <h5 class="font-bold">Popular Tour Packages</h5><br>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Golden Triangle Tour</a>
+                                </li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Classical India Tour</a>
+                                </li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Golden Triangle with Tiger
+                                        Tour</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Sikkim Darjeeling Tour</a>
+                                </li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Frozen River Trek</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Muslim</a></li>
+                                <li><a href="#" class="text-orange-600 ">More...</a> </li><br>
+                                <h5 class="font-bold">Luxury Train Tour</h5><br>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Palace on Wheels</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Heritage on Wheels </a>
+                                </li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Maharaja Express</a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Royal Rajasthan on
+                                        Wheels</a>
+                                </li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Buddhist Circuit Train</a>
+                                </li>
+                                <li><a href="#" class="text-orange-600 ">More...</a> </li><br>
+                            </ul>
+                            <ul class="p-6">
+                                <a href="#"><img src="./image/image3.jpg" alt=""></a>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="hidden lg:flex space-x-8 text-sm font-bold text-gray-700 ">
+                    <li class="relative group">
+                        <button class=" hover:text-orange-600">Weekend Getaways ▾</button>
+                        <div
+                            class="absolute top-full hidden group-hover:flex bg-white shadow-lg w-screen max-w-7xl py-3 space-x-8 justify-center text-sm">
+                            <ul class="p-6">
+                                <h5 class="font-bold">Top Weekend Breaks & Short Getaways Near Your City</h5><br>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Weekend Getaways <span
+                                            class="font-medium">Delhi</span></a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Weekend Getaways <span
+                                            class="font-medium">Bangalore</span></a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Weekend Getaways <span
+                                            class="font-medium">Cochin</span></a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Weekend Getaways <span
+                                            class="font-medium">Pune</span></a></li>
+                            </ul>
+                            <ul class="p-6"><br><br>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Weekend Getaways <span
+                                            class="font-medium">Mumbai</span></a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Weekend Getaways <span
+                                            class="font-medium">Nagpur</span></a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Weekend Getaways <span
+                                            class="font-medium">Chandigarh</span></a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Weekend Getaways <span
+                                            class="font-medium">Jaipur</span></a></li>
+                            </ul>
+                            <ul class="p-6"><br><br>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Weekend Getaways <span
+                                            class="font-medium">Chennai</span></a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Weekend Getaways <span
+                                            class="font-medium">Hyderabad</span></a></li>
+                                <li><a href="#" class="hover:text-orange-600 font-normal">Weekend Getaways <span
+                                            class="font-medium">Ahmedabad</span></a></li>
+                            </ul>
+                            <ul class="p-6">
+                                <a href="#"><img src="./image/image4.jpg" alt=""></a>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class=" hidden lg:flex gap-4 pt-5">
+                <a href="" class="flex text-sm font-bold text-gray-700 "><img src="./image/location.svg"
+                        alt="">Destination Weddings</a>
+                <a href="" class="flex text-sm font-bold text-gray-700 pr-5"><img src="./image/service.svg"
+                        alt="">MICE</a>
+            </div>
+            <div class="ml-auto lg:hidden relative">
+                <!-- Toggle Button -->
+                <button id="menu-toggle" class="bg-orange-400 p-3">
+                    <img src="./image/dash.svg" alt="menu" class="w-6 h-6">
+                </button>
+
+                <!-- Dropdown Menu -->
+                <div id="menu"
+                    class="absolute hidden bg-gray-700 py-3 px-6 text-sm text-white space-y-2 right-0 mt-2 w-48 rounded-md shadow-lg">
+                    <a href="#" class="block hover:bg-orange-400 px-2 py-1">Destinations</a>
+                    <a href="#" class="block hover:bg-orange-400 px-2 py-1">Holiday Ideas</a>
+                    <a href="#" class="block hover:bg-orange-400 px-2 py-1">Packages</a>
+                    <a href="#" class="block hover:bg-orange-400 px-2 py-1">Weekend Getaways</a>
+                    <a href="#" class="block hover:bg-orange-400 px-2 py-1">Destination Weddings</a>
+                    <a href="#" class="block hover:bg-orange-400 px-2 py-1">MICE</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class=" grid lg:grid-cols-5 gap-6 p-6">
+        <div class="col-span-2 row-span-2">
+            <img src="./image/maharaja1-express.webp" alt="Maharaja Express" class="rounded-lg shadow-md">
+        </div>
+        <div class="col-span-3 flex flex-col justify-center">
+            <h1 class="text-2xl md:text-6xl xl:text-7xl font-bold mb-4">
+                Let us plan you a perfect <span class="text-orange-400">India Holiday</span>
+            </h1>
+            <p class="text-lg text-gray-600">
+                Tour My India, one of the best travel agencies in India, offers
+                custom-crafted tour packages for unforgettable holiday experiences across the country.
+            </p>
+        </div>
+
+        <!-- Cards -->
+        <div class="relative pl-3 pr-5 mt-5 mb-15  ml-2 mr-2 bg-white md:p-4 lg:p-6 shadow-2xl rounded-xl">
+            <div class="flex gap-2 md:gap-5 lg:gap-15">
+                <div class="mb-3 lg:mb-8"><a href="">
+                        <h2 class="text-[12px] font-extrabold  md:text-lg">Wildlife</h2>
+                        <p class="text-[6px] text-gray-500 md:text-lg   ">70+ packages</p>
+                    </a>
+
+                </div>
+                <a href=""><img src="./image/animal.png" alt="Wildlife Icon" class="w-5 h-5 mt-2 md:h-10 md:w-10"></a>
+
+            </div>
+            <a href="">
+                <img src="./image/wildlife.webp" alt="Wildlife Safari"
+                    class=" rounded-lg mt-4 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
+            </a>
+
+        </div>
+
+        <div class="relative pl-3 pr-5 mt-5 mb-15 ml-2 mr-2 bg-white md:p-4 lg:p-6 shadow-2xl rounded-xl">
+            <div class="flex gap-2 md:gap-5 lg:gap-15">
+                <div class="mb-3   lg:mb-8">
+                    <h2 class="text-[12px] font-extrabold  md:text-lg">Heritage</h2>
+                    <p class="text-[6px] text-gray-500 md:text-lg   ">25+ packages</p>
+                </div>
+                <img src="./image/banner3-svg.svg" alt="heritage Icon" class="w-5 h-5 mt-2 md:h-10 md:w-10">
+            </div>
+            <img src="./image/heritage.webp" alt="heritage"
+                class=" rounded-lg mt-4 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
+        </div>
+
+        <div class="relative pl-3 pr-5 mt-5 mb-15 ml-2 bg-white md:p-4 lg:p-6 shadow-2xl rounded-xl">
+            <div class="flex gap-1 md:gap-5 lg:gap-15">
+                <div class="mb-3   lg:mb-8">
+                    <h2 class="text-[12px] font-extrabold  md:text-lg">Trekking</h2>
+                    <p class="text-[6px] text-gray-500 md:text-lg   ">70+ packages</p>
+                </div>
+                <img src="./image/tracking.svg" alt="Trekking Icon" class="w-5 h-5 mt-2 md:h-10 md:w-10">
+            </div>
+            <img src="./image/trekking.webp" alt="Trekking "
+                class=" rounded-lg mt-4 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
+        </div>
+    </div>
+    <div class=" text-center mt-10 ">
+        <h1 class="text-2xl md:text-4xl text-bold mb-5 ">Explore Top Destinations by Region</h1>
+        <div class=" grid grid-cols-2 p-4  md:grid-cols-4 pb-0  border-b-1 border-gray-300">
+            <a href="#" class="hover:border-b-4 border-orange-400 p-2">North India</a>
+            <a href="#" class="hover:border-b-4 border-orange-400 ">South India</a>
+            <a href="#" class="hover:border-b-4 border-orange-400 ">East India</a>
+            <a href="#" class="hover:border-b-4 border-orange-400 ">West India</a>
+        </div>
+
+    </div>
+    <div class="grid  grid-cols-2 lg:grid-cols-5 m-20 mt-10 gap-3">
+        <div class="col-span-2 row-span-2 relative">
+            <img src="./image/g-1.webp" alt="" class="rounded-lg ">
+            <h2 class="absolute bottom-5 left-5 text-sm md:text-2xl text-bold text-white">Uttarakhand</h2>
+            <p class="absolute bottom-0 left-5 text-sm text-bold text-white">50+ Packages</p>
+        </div>
+        <div class="relative">
+            <img src="./image/g-2.webp" alt="" class="rounded-lg">
+            <h2 class="absolute bottom-5 left-5 text-sm md:text-2xl text-bold text-white">Rajasthan</h2>
+            <p class="absolute bottom-0 left-5 text-sm text-bold text-white">20+ Packages</p>
+        </div>
+        <div class="relative">
+            <img src="./image/g-3.webp" alt="" class="rounded-lg">
+            <h2 class="absolute bottom-5 left-5 text-sm md:text-2xl text-bold text-white">Himachal</h2>
+            <p class="absolute bottom-0 left-5 text-sm text-bold text-white">20+ Packages</p>
+        </div>
+        <div class="relative">
+            <img src="./image/g-4.webp" alt="" class="rounded-lg">
+            <h2 class="absolute bottom-5 left-5 text-sm md:text-2xl text-bold text-white">Jammu & Kashmir</h2>
+            <p class="absolute bottom-0 left-5 text-sm text-bold text-white">20+ Packages</p>
+        </div>
+        <div class="relative">
+            <img src="./image/g-5.webp" alt="" class="rounded-lg">
+            <h2 class="absolute bottom-5 left-5 text-sm md:text-2xl text-bold text-white">Uttarpradesh</h2>
+            <p class="absolute bottom-0 left-5 text-sm text-bold text-white">25+ Packages</p>
+        </div>
+        <div class="relative">
+            <img src="./image/g-6.webp" alt="" class="rounded-lg">
+            <h2 class="absolute bottom-5 left-5 text-sm md:text-2xl text-bold text-white">Delhi</h2>
+            <p class="absolute bottom-0 left-5 text-sm text-bold text-white">25+ Packages</p>
+        </div>
+        <div class="relative">
+            <img src="./image/g-7.webp" alt="" class="rounded-lg">
+            <h2 class="absolute bottom-5 left-5 text-sm md:text-2xl text-bold text-white">Ladakh</h2>
+            <p class="absolute bottom-0 left-5 text-sm text-bold text-white">20+ Packages</p>
+        </div>
+    </div>
+    <div class="text-left mt-10  ">
+        <h1 class="text-4xl text-bold  pl-15">Top Trending Destinations</h1>
+        <div class="p-4 pl-15 pb-0 space-x-8 border-b-1 border-gray-300">
+            <a href="#" class="border-orange-500 text-xl text-bold">View All Tour <span
+                    class="text-2xl text-orange-400 text-bold">></span></a>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 m-20 mt-10 gap-5">
+            <div class="relative ">
+                <img src="./image/g-11.webp" alt=""
+                    class="rounded-lg mb-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
+                <p>50+ packages</p>
+                <h4 class="text-xl text-bold text-gray-700">Uttarakhand</h4>
+            </div>
+            <div class="relative">
+                <img src="./image/g-22.webp" alt=""
+                    class="rounded-lg mb-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
+                <p>50+ packages</p>
+                <h4 class="text-xl text-bold text-gray-700">Uttarakhand</h4>
+            </div>
+            <div class="relative">
+                <img src="./image/g-33.webp" alt=""
+                    class="rounded-lg mb-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
+                <p>50+ packages</p>
+                <h4 class="text-xl text-bold text-gray-700">Uttarakhand</h4>
+            </div>
+            <div class="relative">
+                <img src="./image/g-44.webp" alt=""
+                    class="rounded-lg mb-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
+                <p>50+ packages</p>
+                <h4 class="text-xl text-bold text-gray-700">Uttarakhand</h4>
+            </div>
+            <div class="relative">
+                <img src="./image/g-66.webp" alt=""
+                    class="rounded-lg mb-2 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-105">
+                <p>50+ packages</p>
+                <h4 class="text-xl text-bold text-gray-700">Uttarakhand</h4>
+            </div>
+        </div>
+
+        <!-- footer section -->
+
+        <div class="Navbar bg-gray-700 p-15">
+            <div class="cotainer flex justify-center  gap-1 md:gap-5 border-b-1 border-gray-100 p-10 mb-20">
+                <img src="./image/f-1.webp" alt="" class="w-25 h-10 ">
+                <img src="./image/f-6.webp" alt="">
+                <img src="./image/f-3.webp" alt="">
+                <img src="./image/f-4.webp" alt="">
+            </div>
+            <div class="relative text-center mt-10">
+                <div class="cotainer grid grid-cols-3 r text-center  text-[5px] md:text-xs text-gray-100  mb-4">
+                    <p class="flex justify-center "> <img src="./image/location-dot-solid-full.svg" alt=""
+                            class="w-2 md:w-4 "> C - 81C, Sector - 8, Noida -
+                        201301</p>
+                    <p class="flex justify-center"><img src="./image/phone-solid-full.svg" alt=""
+                            class="w-2 md:w-4 ">+91-120-400005 - 99 (85 hunting lines are available)</p>
+                    <p class="flex justify-center"><img src="./image/headset-solid-full.svg" alt=""
+                            class="w-2 md:w-4  ">+91-120-411119</p>
+                </div>
+                <div
+                    class="cotainer grid grid-cols-4 pt-2 text-center text-[5px] md:text-xs text-gray-100 gap-1 pb-20 border-b-1 border-gray-100 ">
+                    <p class="flex justify-center"><img src="./image/mobile-solid-full.svg" alt=""
+                            class="w-2 md:w-4 ">+91-9285777888/24</p>
+                    <p class="flex justify-center"><img src="./image/envelope-regular-full.svg" alt=""
+                            class="w-2 md:w-4  ">info@vistavoyage.com</p>
+                    <p class="flex justify-center"><img src="./image/whatsapp-brands-solid-full.svg" alt=""
+                            class="w-2 md:w-4  ">+91-92857778885 (Only for Whatsapp)</p>
+                    <p class="flex justify-center"><img src="./image/skype-brands-solid-full.svg" alt=""
+                            class="w-2 md:w-4  ">vistavoyageindia</p>
+                </div>
+                <div
+                    class="flex gap-2 justify-center absolute top-32  md:top-39  left-26 md:left-80 lg:left-90 lg:top-31 2xl:left-160 ">
+                    <a href=""><img src="./image/x-twitter-brands-solid-full.svg" alt=""
+                            class="w-4 md:w-6 lg:w-8 border-2 border-orange-500 bg-gray-700 hover:bg-orange-500 rounded-2xl"></a>
+                    <a href=""> <img src="./image/facebook-f-brands-solid-full.svg" alt=""
+                            class="w-4 md:w-6 lg:w-8 border-2 border-orange-500 bg-gray-700 hover:bg-orange-500 rounded-2xl"></a>
+                    <a href=""> <img src="./image/linkedin-in-brands-solid-full.svg" alt=""
+                            class="w-4 md:w-6 lg:w-8 border-2 border-orange-500 bg-gray-700 hover:bg-orange-500 rounded-2xl"></a>
+                    <a href=""><img src="./image/youtube-brands-solid-full.svg" alt=""
+                            class="w-4 md:w-6 lg:w-8 border-2 border-orange-500 bg-gray-700 hover:bg-orange-500 rounded-2xl"></a>
+                </div>
+                <div class="justify-center m-10">
+                    <p class="text-center text-gray-100 text-xs">Copyright©2025, Vista Voyage Pvt. Ltd</p>
+                </div>
+            </div>
+        </div>
+        <footer class=" relative flex sticky bottom-0 p-4 inset-shadow-sm  bg-white mb-0 justify-center md:gap-5">
+            <div class="flex gap-5 md:gap-10 lg:gap-25  ">
+                <a href="" class=" text-xs lg:text-xl">
+                    <img src="./image/f-1.svg" alt="" class="w-5 ml-5 md:w-10 ">
+                    Indian Tour</a>
+                <a href="" class=" text-xs lg:text-xl">
+                    <img src="./image/f-2.svg" alt="" class="w-5 ml-7 md:ml-10 md:w-8 lg:w-10 ">
+                    Internatiol Tour</a>
+                <a href="" class=" text-xs lg:text-xl"><img src="./image/f-3.svg" alt=""
+                        class="w-3 ml-15 md:w-8 md:ml-10 lg:ml-16">Destination Wedding</a>
+            </div>
+
+            <div class="absolute gap-5 flex right-10 bottom-15 md:bottom-20 ">
+                <a href=""
+                    class="  border-2 p-2 md:pl-5 md:pr-5 md:border-4 border-orange-400 rounded-4xl bg-white flex text-bold md:text-sm"><img
+                        src="./image/f-4.png" alt="" class=" md:w-4 md:h-5"> +91 994455 -5555</a>
+                <a href=""
+                    class="pl-3 pr-3 pt-2 pl-5 pr-5 border-4 border-orange-400 rounded-4xl bg-orange-400 flex text-bold text-sm"><img
+                        src="./image/f-5.png" alt="" class="w-7 h-4 pr-2">Plan Your Trip</a>
+            </div>
+
+        </footer>
+</body>
+<script>
+    const toggleBtn = document.getElementById("menu-toggle");
+    const menu = document.getElementById("menu");
+
+    toggleBtn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+    });
+</script>
+
+</html>
